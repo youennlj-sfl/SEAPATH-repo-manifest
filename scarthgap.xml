@@ -6,11 +6,11 @@
   <!-- Remote repositories definition -->
   <remote name="yocto" fetch="git://git.yoctoproject.org"/>
   <remote name="github" fetch="https://github.com/"/>
-  <remote name="seapath" fetch="https://github.com/seapath"/>
+  <remote name="skytasul" fetch="https://github.com/SkytAsul"/>
   <remote name="oe" fetch="https://github.com/openembedded"/>
 
   <!-- SEAPATH main Yocto project -->
-  <project name="yocto-bsp" revision="scarthgap" remote="seapath" path="."/>
+  <project name="SEAPATH-yocto-bsp" revision="scarthgap" remote="skytasul" path="."/>
 
 
   <!-- Upstream Yocto & OpenEmbedded Projects -->
@@ -25,7 +25,7 @@
   <project remote="yocto" revision="scarthgap" name="meta-cloud-services" path="sources/meta-cloud-services"/>
 
   <!-- SEAPATH meta layers -->
-  <project name="meta-seapath" revision="scarthgap" remote="seapath" path="sources/meta-seapath"/>
+  <project name="meta-seapath" revision="scarthgap" remote="skytasul" path="sources/meta-seapath"/>
 
   <!-- Other community repositories -->
   <project name="agherzan/meta-raspberrypi" revision="scarthgap" remote="github" path="sources/meta-raspberrypi"/>
