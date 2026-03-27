@@ -6,11 +6,11 @@
   <!-- Remote repositories definition -->
   <remote name="yocto" fetch="git://git.yoctoproject.org"/>
   <remote name="github" fetch="https://github.com/"/>
-  <remote name="skytasul" fetch="https://github.com/SkytAsul"/>
+  <remote name="youenn" fetch="https://github.com/youennlj-sfl"/>
   <remote name="oe" fetch="https://github.com/openembedded"/>
 
   <!-- SEAPATH main Yocto project -->
-  <project name="SEAPATH-yocto-bsp" revision="scarthgap" remote="skytasul" path="."/>
+  <project name="SEAPATH-yocto-bsp" revision="scarthgap" remote="youenn" path="."/>
 
 
   <!-- Upstream Yocto & OpenEmbedded Projects -->
