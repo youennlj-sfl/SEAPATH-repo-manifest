@@ -25,7 +25,7 @@
   <project remote="yocto" revision="scarthgap" name="meta-cloud-services" path="sources/meta-cloud-services"/>
 
   <!-- SEAPATH meta layers -->
-  <project name="meta-seapath" revision="scarthgap" remote="skytasul" path="sources/meta-seapath"/>
+  <project name="meta-seapath" revision="scarthgap" remote="youenn" path="sources/meta-seapath"/>
 
   <!-- Other community repositories -->
   <project name="agherzan/meta-raspberrypi" revision="scarthgap" remote="github" path="sources/meta-raspberrypi"/>
